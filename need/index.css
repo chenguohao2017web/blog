@@ -1,0 +1,112 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+.header {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	background: #6f5499;
+	color:white;
+}
+.header a{
+	text-decoration: none;
+	color:white;
+	display: block;
+	height: 50px;
+	padding: 0 10px;
+}
+.header a:hover{
+	background: white;
+	color:#111;
+}
+.header-left,.header-right {
+	padding:0 20px;
+}
+.footer {
+	min-height: 150px;
+	background: #6f5499;
+	padding: 30px 50px;
+	color:#f3f3f3;
+	margin-top: 50px;
+}
+
+.list-img{
+	width: 100%;
+}
+.row {
+	border:1px solid rgba(0,0,0,.2);
+	padding: 20px 10px;
+	margin-bottom: 20px;
+	position: relative;
+	transition:all .4s;
+}
+.row .badge{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#dianzan {
+	right: 65px;
+	background: red;
+	cursor: pointer;
+}
+#dianzan a {
+	color:white;
+	text-decoration: none;
+}
+.badge strong{
+	color:white;
+}
+
+.row{
+	cursor: pointer;
+}
+.row:hover {
+	box-shadow: 0 0 20px 5px rgba(0,0,0,.2);
+	border:1px solid #ddd;
+}
+#contentrow {
+	cursor:default;
+}
+#contentrow:hover {
+	
+	box-shadow:none;
+}
+.asktext {
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin-bottom: 5px;
+}
+.ask {
+	margin-top: 100px;
+	padding-left: 0;
+	margin-bottom: 20px;
+}
+.name {
+	width: 150px;
+	margin-right: 10px;
+	height: 30px
+}
+
+.asker{
+	width: 100%;
+	border-bottom:1px dashed #999;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.biao {
+	padding:10px 20px;
+	border:1px solid #ddd;
+	color: #111;
+	background: white;
+	text-decoration: none;
+}
+.biao:hover {
+	background: #ddd;
+	color:white;
+}

@@ -1,0 +1,36 @@
+create table article(
+	id int(6) primary key auto_increment,
+	title varchar(50),
+	cate_id int(6),
+	author varchar(20),
+	content text,
+	intime timestamp default current_timestamp,
+	views int default 0
+);
+
+文章分类表 id 分类名 排序号
+create table category(
+	id int(6) primary key auto_increment,
+	cate_name varchar(30),
+	order_no tinyint
+);
+
+留言表 id 用户名 留言内容 留言时间 审核标识
+create table guestbook(
+	id int primary key auto_increment,
+	username varchar(30),
+	art_id int,
+	content text,
+	intime timestamp default current_timestamp,
+	flag tinyint default 0
+);
+
+管理员表  id 登录名 登录密码 身份
+create table admin(
+	id int(6) primary key auto_increment,
+	username varchar(30),
+	password varchar(32),
+	flag varchar(10) default '超级管理员'
+);
+
+插入数据 insert into tablename(字段,字段) values('值'，'值');

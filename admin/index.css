@@ -1,0 +1,175 @@
+* {
+	margin: 0;;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #ddd;
+}
+body {
+	font-size: 14px;
+}
+.container-fluid{
+}
+.header {
+	width: 100%;
+	height: 80px;
+	color:#ddd;
+	line-height: 80px;
+	font-size: 24px;
+	text-shadow: 0 0 5px black;
+	padding:0 20px;
+	background: #24364e;
+}
+.header a {
+	color:#ddd;
+	margin-left: 10px;
+	text-decoration: none;
+	display: block;
+	float: left;
+	margin-left: 3px;
+	padding: 0 10px;
+}
+.header a:hover {
+	background: #2e6da4;
+
+}
+.content {
+	background: #24364e;
+	margin-top: 2px;
+	color:#ddd;
+}
+.content h3 {
+	font-size: 18px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.content h3,h4{
+	margin-left: 32px;
+}
+.content-left {
+	border-right:1px solid black;
+}
+.list {
+	margin-top: 30px;
+}
+.list dt {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	padding:0 20px;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	cursor: pointer;
+	position: relative;
+}
+.list dd:hover,
+.list dt:hover {
+	background:#337ab7;
+
+
+}
+list dd a:hover  {
+	color:white;
+}
+.list dt span {
+	position: absolute;
+	right:10%;
+	top: 30%;
+	
+}
+.list dd {
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	padding:0 25px;
+	display: none;
+	text-align: center;
+	border-bottom: 1px solid rgba(255,255,255,.1);
+	cursor:pointer;
+}
+.list dd a{
+	display: block;
+	text-decoration: none;
+}
+
+.content-right {
+	background: white;
+	padding: 30px;
+	height: 700px;
+}
+.content-body,
+.content-hea {
+	color: #111;
+	border:1px solid #ddd;
+}
+.content-body {
+	margin-top: 50px;
+}
+.content-body h5,
+.content-hea h5 {
+	margin: 0;
+	background: #ddd;
+	width: 100%;
+	font-size: 18px;
+	padding: 10px;
+}
+.content-body p,
+.content-hea p {
+	width: 100%;
+	padding:0 10px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.addlist {
+	color:#111;
+}
+.addlist input {
+	width: 100%;
+	height: 100%;
+	padding-left: 15px;
+}
+.addlist .table>tbody>tr>td {
+	padding:0;
+	height: 50px;
+	font-size: 24px;
+}
+
+.content-hea td a {
+	color: #111;
+	text-decoration: none;
+}
+.content-hea a:hover {
+	color:rgba(0,0,0,.5);
+}
+
+.article-list {
+	color: #111;
+}
+.article-list a {
+	color:#999;
+}
+textarea {
+	display: block;
+	    color: #111;
+	    width: 100%;
+}
+
+table {
+	color:#111;
+}
+table a {
+	color:#111;
+}
+table a:hover {
+	color:#999;
+}
+#exampleInputPassword2 {
+	display: block;
+	border:1px solid #ccc;
+	padding:5px 20px;
+	color:#111;
+	width: 20%;
+}
